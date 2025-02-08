@@ -37,7 +37,7 @@
           :slidesPerView="1.6"
           :modules="modules"
         >
-          <z-swiper-item :style="[{ widht:'80%'}]" v-for="(item, index) in loopList" :key="item.id">
+          <z-swiper-item :style="[{ widht:'80%',borderRadius: '40rpx', overflow: 'hidden'}]" v-for="(item, index) in loopList" :key="item.id">
             <div :style="[{ background: item.background,height: '30vh'}]">
               <image  :style="[{ height: '100%', width: '100%'}]" :src="item.url"></image>
             </div>
@@ -54,8 +54,8 @@
             />
           </div>
           <div class="song-detail">
-            <div class="song-name">Sunset</div>
-            <div class="artist">The xx</div>
+            <div class="song-name">‌Costa</div>
+            <div class="artist">McCafe</div>
           </div>
         </div>
         <div class="song">
@@ -65,8 +65,8 @@
             />
           </div>
           <div class="song-detail">
-            <div class="song-name">The pursuit of happiness</div>
-            <div class="artist">Beyries</div>
+            <div class="song-name">Keurig Dr Pepper</div>
+            <div class="artist">Soda‌</div>
           </div>
         </div>
         <div class="song">
@@ -76,8 +76,8 @@
             />
           </div>
           <div class="song-detail">
-            <div class="song-name">Run</div>
-            <div class="artist">Daughter</div>
+            <div class="song-name">Peet's Coffee</div>
+            <div class="artist">Cappuccino‌</div>
           </div>
         </div>
       </div>
